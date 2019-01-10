@@ -1,0 +1,4 @@
+extensions.db
+*.log
+target
+bin
