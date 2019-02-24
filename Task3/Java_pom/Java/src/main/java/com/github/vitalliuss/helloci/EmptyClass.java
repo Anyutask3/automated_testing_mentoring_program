@@ -2,7 +2,7 @@ package com.github.vitalliuss.helloci;
 
 /**
  * Empty class for Cobertura code coverage
- * @author vitali_shulha
+ * @author Ani_sargsyan
  *
  */
 public class EmptyClass {
