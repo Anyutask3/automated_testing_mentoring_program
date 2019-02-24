@@ -1,8 +1,8 @@
-var webdriver = require("suy");
+var webdriver = require("selenium-webdriver");
 
 function createDriver() {
     var driver = new webdriver.Builder()
-        .usingServer('http://127.0.0.1:4444/wd/hub')
+        .usingServer('http://localhost:4444/wd/hub')
         .withCapabilities(webdriver.Capabilities.chrome())
         .build();
     driver.manage().timeouts().setScriptTimeout(10000);
