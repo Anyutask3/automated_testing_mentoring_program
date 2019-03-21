@@ -4,14 +4,12 @@ class HomePage extends Page {
   constructor() {
       super();
       this.url = '';
-      this.startTrialButton = element(by.xpath('//*[@id="content"]/div[2]/div/form/a'));
+      this.findYourDreamJob = element.all(by.className('recruiting-search__form')).get(0);
   }
 
   homePageShouldBeLoaded() {
-      return this.startTrialButton.isDisplayed().then(function (isDisplayed) {
-          return expect(isDisplayed).to.be.true;
-
-      })
+    return this.findYourDreamJob.isDisplayed();
+        
   };
 
 }

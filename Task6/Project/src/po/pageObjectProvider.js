@@ -1,6 +1,6 @@
 const PAGE_OBJECT_MAP = {
     "home": "./homePage",
-    "signup": "./signUpPage"
+    "careers": "./findYourJob"
 };
 
 module.exports.getPageObjects = function (pageName) {

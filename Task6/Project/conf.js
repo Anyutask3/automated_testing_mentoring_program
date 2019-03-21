@@ -11,9 +11,6 @@ exports.config = {
     global.GLOBAL_TIMEOUT = GLOBAL_TIMEOUT;
     global.ec = protractor.ExpectedConditions;
 
-    const chai = require('chai');
-    chai.use(require('chai-as-promised'));
-    global.expect = chai.expect;
 
     browser.manage().window().maximize();
     browser.waitForAngularEnabled(false);
