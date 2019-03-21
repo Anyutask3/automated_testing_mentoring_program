@@ -24,22 +24,4 @@ describe('Job searching ', () => {
         findYourJob.findYourDreamJobForm();
     });
     
-    // it('should click sign up button', () => {
-    //     helper.clickToElement(homePage.header.signInButton);
-    // });
-
-    // it('should check page title of signup Page', () => {
-    //     expect(homePage.checkPageTitle('Doodle')).to.eventually.be.true;
-    // });
-
-    // it('should click sign up tab', () => {
-    //     helper.clickToElement(signUpPage.signUpTab);
-    // });
-
-    
-
-    // it('should  navigate to Home page', () => {
-    //     homePage.open();
-    //     expect(homePage.checkPageTitle('Epam')).to.eventually.be.true;
-    // });
 });
