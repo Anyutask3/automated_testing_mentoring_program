@@ -1,0 +1,31 @@
+{
+    "Careers": {
+        "isCollection": false,
+        "selector": "span > a[href='/careers']"
+    },
+    "Keyword or job ID input": {
+        "isCollection": false,
+        "selector": "#new_form_job_search_1445745853_copy-keyword"
+    },
+    "Location": {
+        "isCollection": true,
+        "selector": ".hamburger-Careers__sub-list"
+    },
+    "Find button": {
+        "isCollection": true,
+        "selector": ".recruiting-search__submit"
+    },
+    "Result": {
+        "isCollection": true,
+        "selector": ".search-result__list"
+    },
+    "Expanded Careers Row Titles": {
+        "isCollection": true,
+        "selector": ".hamburger-Careers__list > .hamburger-Careers__item > a.hamburger-Careers__link"
+    },
+    "Globus Icon": {
+        "isCollection": false,
+        "selector": ".location-selector__button"
+    }
+    
+}

@@ -1,0 +1,23 @@
+{
+  "name": "automated_testing_mentoring_program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyutask3/automated_testing_mentoring_program.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anyutask3/automated_testing_mentoring_program/issues"
+  },
+  "homepage": "https://github.com/Anyutask3/automated_testing_mentoring_program#readme",
+  "dependencies": {
+    "@wdio/cli": "^5.7.5",
+    "wdio": "^3.0.3"
+  }
+}
